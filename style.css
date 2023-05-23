@@ -1,0 +1,84 @@
+/*background*/
+html {
+    background-image: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+}
+
+/*centrer header*/
+header {    
+    text-align: center;
+    margin : auto; 
+}
+
+/*dimension banniere*/
+header img{
+    width: 800px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 72%;
+}
+
+/*titres h1*/
+h1 {
+    color:  #EF233C;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+/*titres h3*/
+h3 {
+    color:  #2B2D42;
+    font-size: 2em;    
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    font-weight: bold;     
+}
+
+/*bordures articles*/
+article {
+    border: 1px solid;
+}
+
+/*images articles*/
+article img{
+    text-align: center;    
+    margin: auto;
+    display: block;
+    border: 2px solid  #8D99AE;
+    width: 200px;
+    height: 100px;
+}
+
+/*footer*/
+footer{
+    text-align: right;
+}
+
+/*enlever puces ul*/
+ul{
+    list-style-type: none;
+}
+
+/*styles liens*/
+a{
+    color: #D90429;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: #2B2D42;
+}
+
+/*etoiles rouges*/
+#nom:after, #mail:after{
+    content: "*";
+    color: red;
+}
+
+/*retour à la ligne zone texte commentaires*/
+textarea{
+    text-align: left;
+    display: block;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <!--bannière-->
+        <img src="https://www.lescommunes.com/images_communes/82132/003.jpg">
+        <!--titre-->
+        <h1>Bienvenu</h1>
+        <!--onglets-->    
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main-->
+    <section>
+        <!--formulaire-->
+        <form method="POST" action="monProgramme.php">            
+            <fieldset id="fieldset">
+                <legend>Contact</legend>                
+                <div>
+                    <!--nom-->
+                    <label id="nom" for="nom">Nom:</label>
+                    <input type="text" name="nom" placeholder="Ex: Robert" minlength="2" maxlength="20" id="nom" required>
+                </div>
+                <div>
+                    <!--mail-->
+                    <label id="mail" for="mail">E-mail:</label>
+                    <input type="email" name="mail" placeholder="Ex: monMail@fai.com" id="mail" required>
+                </div>
+                <div>
+                    <!--commentaires-->
+                    <label for="commentaires">Laissez un commentaire:</label>
+                    <textarea placeholder="Je dépose un avis :)" rows="10" cols="70"></textarea>                
+                </div>
+                <div>
+                    <!--checkbutton-->
+                    <label for="checkbox">Envoyer une copie par E-mail !</label>
+                    <input type="checkbox" checked id="checkbox">              
+                </div>
+                <div>  
+                    <!--boutons-->              
+                    <input type="submit" value="Envoyer">    
+                    <input type="reset" value="Reset">              
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <!--footer-->
+    <footer>
+        <!--menus-->
+        <ul>
+            <li><a href="">Menu 1</a></li>
+            <li><a href="">Menu 2</a></li>
+            <li><a href="">Menu 3</a></li>
+            <li><a href="">Menu 4</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
